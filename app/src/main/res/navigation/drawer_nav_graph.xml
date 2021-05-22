@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/orderHistory"
+        android:name="com.sample.foodrunner.ui.main_fragment.order_history.OrderHistory"
+        android:label="Order History"
+        tools:layout="@layout/inner_fragment_order_history" />
+    <fragment
+        android:id="@+id/favouriteRestaurants"
+        android:name="com.sample.foodrunner.ui.main_fragment.fav_restaurants.FavouriteRestaurants"
+        android:label="Favourite Restuarant"
+        tools:layout="@layout/inner_fragment_fav_restaurants" />
+    <fragment
+        android:id="@+id/faq"
+        android:name="com.sample.foodrunner.ui.main_fragment.faq.Faq"
+        android:label="Frequently Ask Questions"
+        tools:layout="@layout/inner_fragment_faq" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.sample.foodrunner.ui.main_fragment.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/inner_fragment_home" />
+    <fragment
+        android:id="@+id/myProfile"
+        android:name="com.sample.foodrunner.ui.main_fragment.my_profile.MyProfile"
+        android:label="My Profile"
+        tools:layout="@layout/inner_fragment_my_profile" />
+</navigation>

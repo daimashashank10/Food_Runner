@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:title="Home" />
+        <item
+            android:id="@+id/myProfile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/orderHistory"
+            android:title="Order History" />
+        <item
+            android:id="@+id/favouriteRestaurants"
+            android:title="Favourite Restaurants" />
+        <item
+            android:id="@+id/faq"
+            android:title="FAQ's" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+    </group>
+</menu>
